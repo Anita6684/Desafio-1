@@ -160,3 +160,27 @@ gap: 10px;
   max-width: 700px;
   line-height: 1.5;
 }
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.perfil-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconos{
+    display: flex;
+    gap: 15px;
+}
+
+.iconos i{
+    font-size: 22px;
+    color: gray;
+    cursor: pointer;
+}
